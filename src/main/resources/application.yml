@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-boot-30-demo
+  profiles:
+    active: dev
+
+logging:
+  level:
+    org.apache.tomcat: warn
+    org.apache.catalina: warn
+    org.apache.coyote: warn
+    org.springframework: warn
